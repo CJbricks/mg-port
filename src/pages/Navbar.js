@@ -48,10 +48,14 @@ export default function Navbar() {
                 height={20}
                 />
             </Box>
+            {/* Navbar not menu */}
             <HStack
               as={'nav'}
               spacing={4}
-              display={{ base: 'none', md: 'flex' }}>
+              display={{ base: 'none', md: 'flex' }}
+              fontSize={['md', 'lg', 'xl']}
+              fontWeight={500}>
+              
                 <Link 
                     href='/Body'
                     px={2}
