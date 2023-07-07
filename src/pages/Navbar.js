@@ -43,7 +43,7 @@ export default function Navbar() {
             <Box p={[0, 0, 4]}>
               <Image 
                 src='/Images/mg-card.png' 
-                alt='woofies-logo-small'
+                alt='mg-body-mod-logo-small'
                 width={20}
                 height={20}
                 />
@@ -63,7 +63,7 @@ export default function Navbar() {
                    bg: useColorModeValue('gray.400', 'gray.500'),
                  }}>Home</Link>
               <Link 
-              href='./Programs'
+              href='#'
                px={2}
                py={1}
                rounded={'full'}
@@ -72,7 +72,7 @@ export default function Navbar() {
                  bg: useColorModeValue('gray.400', 'gray.500'),
                }}>Services</Link>
               <Link 
-                href='./Gallery'
+                href='#'
                 px={2}
                 py={1}
                 rounded={'full'}
@@ -81,7 +81,7 @@ export default function Navbar() {
                   bg: useColorModeValue('gray.400', 'gray.500'),
                 }}>Gallery</Link>
                  <Link 
-                href='./Contact'
+                href='#'
                 px={2}
                 py={1}
                 rounded={'full'}
@@ -110,6 +110,7 @@ export default function Navbar() {
           </Flex>
         </Flex>
 
+                {/* Drop menu */}
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
             <Stack as={'nav'} spacing={4}>
@@ -125,7 +126,7 @@ export default function Navbar() {
                  }}>Home</Link>
 
             <Link 
-                    href='/Contact'
+                    href='#'
                     px={2}
                     py={1}
                     rounded={'full'}
@@ -135,7 +136,7 @@ export default function Navbar() {
                    bg: useColorModeValue('gray.400', 'gray.500'),
                  }}>Contact</Link>
             <Link 
-              href='./Programs'
+              href='#'
                px={2}
                py={1}
                rounded={'full'}
@@ -144,7 +145,7 @@ export default function Navbar() {
                  bg: useColorModeValue('gray.400', 'gray.500'),
                }}>Services</Link>
               <Link 
-                href='./Gallery'
+                href='#'
                 px={2}
                 py={1}
                 rounded={'full'}
