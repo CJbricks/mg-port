@@ -42,8 +42,8 @@ export default function Navbar() {
           <HStack spacing={8} alignItems={'center'}>
             <Box p={[0, 0, 4]}>
               <Image 
-                src='/Images/mg-card.png' 
-                alt='mg-body-mod-logo-small'
+                src='/Images/mario-logo-sm.png' 
+                alt='mg-goth-logo-small'
                 width={20}
                 height={20}
                 />

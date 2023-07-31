@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
+import '@fontsource/Bebas-Neue/400.css'
 
 
 export default function App({ Component, pageProps }) {
@@ -12,7 +13,11 @@ export default function App({ Component, pageProps }) {
     },
   }
 
-  const theme = extendTheme({ colors })
+  const fonts = {
+    heading: `Bebas Neue, sans-serif`
+  }
+
+  const theme = extendTheme({ colors, fonts })
   
   return (
       <ChakraProvider theme={theme}>
