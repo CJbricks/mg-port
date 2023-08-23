@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
   }
 
   const fonts = {
-    heading: `Bebas Neue, sans-serif`
+    heading: `'Bebas Neue', sans-serif`
   }
 
   const theme = extendTheme({ colors, fonts })
