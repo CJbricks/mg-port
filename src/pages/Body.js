@@ -9,7 +9,7 @@ export default function Body() {
     <>
       <Navbar />
         <Header />
-          <Scars />
+          
       <Footer />
       
     </>
